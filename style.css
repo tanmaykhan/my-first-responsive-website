@@ -15,6 +15,7 @@
 }
 .banner-description{
     color: #727272;
+    font-size: 18px;
 }
 header {
     background: rgba(255, 144, 14, 0.10);
@@ -134,6 +135,50 @@ main{
 .card:hover{
     color: bisque;
 }
+.feature-2{
+    display: flex;
+    margin-top: 130px;
+    gap: 150px;
+}
+.feature-2 .feature-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.feature-content .card-2{
+    border-radius: 8px;
+    background: #FFF;
+    padding: 6px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.feature-img img{
+    height: 90%;
+    margin-left: 90px;
+}
+.ten{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 342px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+}
+.ten h2{
+    font-size: 3rem;
+    margin: 0;
+}
+.ten p{
+    font-size: 1.5rem;
+}
+.feature-title{
+    font-size: 30px;
+}
+.feature-content{
+    margin-top: -40px;
+}
+
 
 
 @media screen and (max-width: 576px) {
